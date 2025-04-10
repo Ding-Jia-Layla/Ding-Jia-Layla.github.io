@@ -46,11 +46,11 @@
 
 ## Pipeline
 - 预处理
-    - 每个顶点/面的邻域面密度（构建 voxel grid or KDTree）
+    - 每个顶点/面的邻域面密度（八叉树）
 
     - 计算曲率（法线夹角 or 近似 Laplacian）
 
-    - 计算 UV 密度（面面积 vs UV 面积占比）
+    - 计算 UV 密度（面占总空间面积 vs UV 面积占比）
 
     - 提取骨骼权重和 blendshape 影响区域
 
